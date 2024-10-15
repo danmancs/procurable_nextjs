@@ -1,4 +1,3 @@
-import { tw } from 'twind';
 import Preferences from '@/constants/svg/preferences.svg';
 import Play from '@/constants/svg/play.svg';
 

@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\contact\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\contact\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\styles\\aggregated.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\aggregated.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\marine\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\marine\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\styles\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\projects\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\projects\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\styles\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\components.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\button\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\button\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\video-section\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\video-section\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\cases-section\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\cases-section\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\social-proof\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\social-proof\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\services\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -39,24 +39,52 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\navigation\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\footer\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\footer\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\list-section\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\list-section\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\header\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\header\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\footer\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\footer\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\cases-section\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\cases-section\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\button\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\button\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\_app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\_app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\projects\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\projects\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\marine\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\marine\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\contact\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\contact\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -70,11 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "layout.tsx",
               "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\layout.tsx",
               "RelativeDocumentMoniker": "src\\app\\layout.tsx",
@@ -88,33 +116,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "page.tsx",
-              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\contact\\page.tsx",
-              "RelativeDocumentMoniker": "src\\app\\contact\\page.tsx",
-              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\contact\\page.tsx",
-              "RelativeToolTip": "src\\app\\contact\\page.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-15T12:27:50.879Z",
+              "DocumentIndex": 2,
+              "Title": "components.css",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\styles\\components.css",
+              "RelativeDocumentMoniker": "src\\styles\\components.css",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\styles\\components.css",
+              "RelativeToolTip": "src\\styles\\components.css",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T12:44:18.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "page.tsx",
-              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\marine\\page.tsx",
-              "RelativeDocumentMoniker": "src\\app\\marine\\page.tsx",
-              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\marine\\page.tsx",
-              "RelativeToolTip": "src\\app\\marine\\page.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-15T12:27:47.412Z",
+              "Title": "base.css",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\styles\\base.css",
+              "RelativeDocumentMoniker": "src\\styles\\base.css",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\styles\\base.css",
+              "RelativeToolTip": "src\\styles\\base.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T12:42:52.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "aggregated.css",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\styles\\aggregated.css",
+              "RelativeDocumentMoniker": "src\\styles\\aggregated.css",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\styles\\aggregated.css",
+              "RelativeToolTip": "src\\styles\\aggregated.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T12:41:51.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_app.tsx",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\_app.tsx",
+              "RelativeDocumentMoniker": "src\\app\\_app.tsx",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\_app.tsx",
+              "RelativeToolTip": "src\\app\\_app.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-15T12:37:01.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.tsx",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\list-section\\index.tsx",
+              "RelativeDocumentMoniker": "src\\components\\list-section\\index.tsx",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\list-section\\index.tsx",
+              "RelativeToolTip": "src\\components\\list-section\\index.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-15T12:36:20.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "page.tsx",
               "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\projects\\page.tsx",
               "RelativeDocumentMoniker": "src\\app\\projects\\page.tsx",
@@ -123,58 +194,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-10-15T12:27:33.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.tsx",
-              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\button\\index.tsx",
-              "RelativeDocumentMoniker": "src\\components\\button\\index.tsx",
-              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\button\\index.tsx",
-              "RelativeToolTip": "src\\components\\button\\index.tsx",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAwAAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-15T12:27:02.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.tsx",
-              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\cases-section\\index.tsx",
-              "RelativeDocumentMoniker": "src\\components\\cases-section\\index.tsx",
-              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\cases-section\\index.tsx",
-              "RelativeToolTip": "src\\components\\cases-section\\index.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-15T12:26:55.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "index.tsx",
-              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\services\\index.tsx",
-              "RelativeDocumentMoniker": "src\\components\\services\\index.tsx",
-              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\services\\index.tsx",
-              "RelativeToolTip": "src\\components\\services\\index.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-15T12:26:39.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "index.tsx",
-              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\pricing-table\\index.tsx",
-              "RelativeDocumentMoniker": "src\\components\\pricing-table\\index.tsx",
-              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\pricing-table\\index.tsx",
-              "RelativeToolTip": "src\\components\\pricing-table\\index.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-15T12:26:28.086Z",
               "EditorCaption": ""
             },
             {
@@ -205,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "index.tsx",
               "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\footer\\index.tsx",
               "RelativeDocumentMoniker": "src\\components\\footer\\index.tsx",
@@ -218,33 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "index.tsx",
-              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\header\\index.tsx",
-              "RelativeDocumentMoniker": "src\\components\\header\\index.tsx",
-              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\header\\index.tsx",
-              "RelativeToolTip": "src\\components\\header\\index.tsx",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAgwGkAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-15T12:22:38.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\package.json",
-              "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\package.json",
-              "RelativeToolTip": "package.json",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-15T12:15:47.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "page.tsx",
               "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\page.tsx",
               "RelativeDocumentMoniker": "src\\app\\page.tsx",
@@ -257,7 +250,136 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
+              "Title": "index.tsx",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\button\\index.tsx",
+              "RelativeDocumentMoniker": "src\\components\\button\\index.tsx",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\button\\index.tsx",
+              "RelativeToolTip": "src\\components\\button\\index.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-15T12:27:02.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "index.tsx",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\cases-section\\index.tsx",
+              "RelativeDocumentMoniker": "src\\components\\cases-section\\index.tsx",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\cases-section\\index.tsx",
+              "RelativeToolTip": "src\\components\\cases-section\\index.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-15T12:26:55.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "index.tsx",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\header\\index.tsx",
+              "RelativeDocumentMoniker": "src\\components\\header\\index.tsx",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\header\\index.tsx",
+              "RelativeToolTip": "src\\components\\header\\index.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-15T12:22:38.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.tsx",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\pricing-table\\index.tsx",
+              "RelativeDocumentMoniker": "src\\components\\pricing-table\\index.tsx",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\pricing-table\\index.tsx",
+              "RelativeToolTip": "src\\components\\pricing-table\\index.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-15T12:26:28.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.tsx",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\services\\index.tsx",
+              "RelativeDocumentMoniker": "src\\components\\services\\index.tsx",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\services\\index.tsx",
+              "RelativeToolTip": "src\\components\\services\\index.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-15T12:26:39.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.tsx",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\social-proof\\index.tsx",
+              "RelativeDocumentMoniker": "src\\components\\social-proof\\index.tsx",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\social-proof\\index.tsx",
+              "RelativeToolTip": "src\\components\\social-proof\\index.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-15T12:36:38.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.tsx",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\video-section\\index.tsx",
+              "RelativeDocumentMoniker": "src\\components\\video-section\\index.tsx",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\components\\video-section\\index.tsx",
+              "RelativeToolTip": "src\\components\\video-section\\index.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-15T12:36:48.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "page.tsx",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\marine\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\marine\\page.tsx",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\marine\\page.tsx",
+              "RelativeToolTip": "src\\app\\marine\\page.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-15T12:27:47.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "page.tsx",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\contact\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\contact\\page.tsx",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\src\\app\\contact\\page.tsx",
+              "RelativeToolTip": "src\\app\\contact\\page.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-15T12:27:50.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T12:15:47.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "tsconfig.json",
               "DocumentMoniker": "C:\\Users\\DanManchester\\Documents\\GitHub\\trials\\next-startd-main\\tsconfig.json",
               "RelativeDocumentMoniker": "tsconfig.json",
@@ -265,12 +387,7 @@
               "RelativeToolTip": "tsconfig.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-15T11:49:27.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2024-10-15T11:49:27.375Z"
             }
           ]
         }

@@ -1,4 +1,3 @@
-import { tw } from 'twind';
 import { useState } from 'react';
 import Quote from '@/constants/svg/quote.svg';
 

@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app",
-    "\\src\\app\\contact",
-    "\\src\\app\\marine",
-    "\\src\\app\\projects",
-    "\\src\\components",
-    "\\src\\components\\button",
-    "\\src\\components\\pricing-table",
-    "\\src\\components\\social-proof"
+    "\\src\\components\\footer",
+    "\\src\\components\\header",
+    "\\src\\components\\list-section",
+    "\\src\\components\\navigation",
+    "\\src\\components\\page",
+    "\\src\\components\\services",
+    "\\src\\components\\video-section",
+    "\\src\\pages\\api"
   ],
-  "SelectedNode": "\\src\\app\\contact\\page.tsx",
+  "SelectedNode": "\\src\\pages",
   "PreviewInSolutionExplorer": false
 }
