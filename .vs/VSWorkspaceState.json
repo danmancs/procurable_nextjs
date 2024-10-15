@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\node_modules\\eslint\\bin",
+    "\\node_modules\\eslint\\lib",
+    "\\node_modules\\eslint\\lib\\eslint",
+    "\\node_modules\\prettier",
+    "\\src",
+    "\\src\\components\\cases-section",
+    "\\src\\components\\footer",
+    "\\src\\components\\services",
+    "\\src\\pages"
+  ],
+  "PreviewInSolutionExplorer": false
+}
