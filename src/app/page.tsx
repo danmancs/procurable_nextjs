@@ -1,8 +1,8 @@
 'use client';
 
 // Ensures interactivity for client-side components
-import Head from 'next/head'; // Ensure correct import for adding meta tags
-import { NextSeo } from 'next-seo'; // You can still use next-seo or Next.js metadata API
+//import Head from 'next/head'; // Ensure correct import for adding meta tags
+//import { NextSeo } from 'next-seo'; // You can still use next-seo or Next.js metadata API
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 // Uncomment these if needed and make sure to add "use client" to those that need interactivity.
@@ -16,7 +16,7 @@ import Footer from '@/components/footer';
 export default function Home() {
   return (
     <>
-      <NextSeo title="Procurable Group Pty Ltd" description="Project Management and Marine and Infrastructure Supply" />
+      {/*<NextSeo title="Procurable Group Pty Ltd" description="Project Management and Marine and Infrastructure Supply" />*/}
 
       {/* Main Header */}
       <Header />

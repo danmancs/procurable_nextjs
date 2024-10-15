@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { tw, css } from 'twind/css';
+import { css } from 'css';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import { useRouter } from 'next/router';

@@ -1,4 +1,4 @@
-import { tw, css } from 'twind/css';
+import { css } from 'css';
 import Link from 'next/link';
 
 interface IButton {

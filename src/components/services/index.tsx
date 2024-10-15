@@ -2,7 +2,7 @@
 
 // Use this only if future client-side logic is expected
 
-import { tw, css } from 'twind/css';
+import { css } from 'css';
 import Check from '@/constants/svg/check.svg';
 
 const servicesGradientStyle = css`

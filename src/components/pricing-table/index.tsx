@@ -1,4 +1,4 @@
-import { tw } from 'twind';
+
 import Check from '@/constants/svg/check.svg';
 import Button from '@/components/button';
 

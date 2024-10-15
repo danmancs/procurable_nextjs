@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { tw } from 'twind';
 import emailjs from '@emailjs/browser';
 import Image from 'next/image';
 import Link from 'next/link';

@@ -2,7 +2,6 @@
 
 // Mark this as a client-side component
 
-import { tw } from 'twind';
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';

@@ -1,4 +1,3 @@
-import { tw } from 'twind';
 import Image from 'next/image'; // Importing Next.js optimized image component
 import Arrow from '@/constants/svg/arrow.svg'; // Adjust path if necessary
 
