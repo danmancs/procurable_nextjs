@@ -106,15 +106,19 @@
   .bg-projects {
     background: linear-gradient(to right, #d5713b 0%, #000000 60%);
   }
-
+  .button.bg-projects {
+    background: linear-gradient(to right, #d5713b 0%, #000000 60%);
+  }
   .button.bg-projects:hover {
     background: linear-gradient(to right, #443f3c 0%, #d5713b 100%);
   }
   .bg-marine {
     background: linear-gradient(to right, #00173b 0%, #d8d9e3 100%);
   }
-
-  .bg-marine:hover {
+  .button.bg-marine {
+    background: linear-gradient(to right, #00173b 0%, #d8d9e3 100%);
+  }
+  .button.bg-marine:hover {
     background: linear-gradient(to right, #d8d9e3 0%, #00173b 100%); 
   }
 

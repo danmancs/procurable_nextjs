@@ -6,6 +6,7 @@
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 import Navigation from '@/components/navigation';
+
 // Uncomment these if needed and make sure to add "use client" to those that need interactivity.
 // import VideoSection from '@/components/video-section';
 // import ListSection from '@/components/list-section';

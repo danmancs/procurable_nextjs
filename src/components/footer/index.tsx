@@ -1,4 +1,4 @@
-import Button from '@/components/button';
+import { Button } from '../ui/button';
 import Image from 'next/image';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';

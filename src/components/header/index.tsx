@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Button } from '../ui/button'; // Ensure you have this Button component
 import { cn } from '@/lib/utils';
 
+
 const HomePage = () => {
   return (
     <header className={cn("bg-white py-16")}>
@@ -35,7 +36,7 @@ const HomePage = () => {
         </div>
 
         {/* Footer */}
-        <footer className={cn(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>
+        <footer className={cn(`font-mono pb-80 pt-10 uppercase text-center font-medium text-sm text-gray-600`)}>
           <p>Thanks for stopping by</p>
         </footer>
       </div>

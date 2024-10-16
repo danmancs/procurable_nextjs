@@ -8,9 +8,94 @@ const nunito = Nunito({ subsets: ["latin"], variable: "--font-nunito" });
 
 
 export const metadata: Metadata = {
-  title: 'Procurable Group',
-  description: 'Some shit to go in here',
-}
+  metadataBase: new URL('https://www.procurable.group'),
+  title: {
+    default: 'Procurable Group',
+    template: '%s | Procurable Group',
+  },
+  description: 'Procurable Group delivers expert project management services and supplies high-quality engineered products for the marine and infrastructure industries. With two dedicated divisions, we provide tailored solutions to meet industry needs, ensuring quality, efficiency, and over 25 years of trusted experience.',
+  
+  generator: 'Next.js',
+  applicationName: 'Procurable Group',
+  referrer: 'origin-when-cross-origin',
+  
+  keywords: [
+    'project management', 
+    'engineered products', 
+    'marine industry', 
+    'infrastructure industry', 
+    'marine solutions', 
+    'contract management', 
+    'supplier quality management',
+    'strategic sourcing', 
+    'expediting', 
+    'asset management'
+  ],
+
+  authors: [
+    { name: 'Dan Manchester', url: 'https://www.procurable.group' },
+  ],
+
+  creator: 'Procurable Group',
+  publisher: 'Procurable Group',
+
+  alternates: {
+    canonical: 'https://www.procurable.group',
+    languages: {
+      'en-US': '/',
+    },
+  },
+
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+
+  openGraph: {
+    title: 'Procurable Group - Project Management and Engineered Products for Marine & Infrastructure',
+    description: 'Expert project management services and high-quality engineered products for the marine and infrastructure industries.',
+    url: 'https://www.procurable.group',
+    siteName: 'Procurable Group',
+    images: [
+      { url: '/images/logo.png', width: 512, height: 512, alt: 'Procurable Group Logo' },
+    ],
+    locale: 'en_US',
+    type: 'website',  
+    },
+
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: '/favicon.ico',
+    },
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      nocache: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+
+  linkedIn: {
+    profile: {
+      company: ['https://www.linkedin.com/company/procurable-projects', 'https://www.linkedin.com/company/procurable-marine'],
+    },
+  },
+};
+
 
 interface LayoutProps {
   children: ReactNode;
