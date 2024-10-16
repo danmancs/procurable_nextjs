@@ -1,11 +1,18 @@
-import { Config } from "tailwindcss";
 
-const config: Config = {
+import { Config } from "tailwindcss";
+const fonts = ""
+console.log ( 		 {
+	...fonts.split(" ").reduce((o,v) => {
+		o[v.replace("--font-", "")] = [`var(${v})`];
+		return o;
+	}, {} )
+  })
+const config = {
   darkMode: ["class"],
   content: [ './src/**/*.{ts,tsx}' ],
   theme: {
   	container: {
-  		center: 'true',
+  		center: ( true ),
   		padding: '2rem',
   		screens: {
   			'2xl': '1400px'
@@ -16,7 +23,10 @@ const config: Config = {
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
-  			background: 'hsl(var(--background))',
+  			background: {
+				DEFAULT: 'hsl(var(--background))',
+			projects: 'var(--gradient-projects)'
+			},
   			foreground: 'hsl(var(--foreground))',
   			primary: {
   				DEFAULT: 'hsl(var(--primary))',
@@ -105,7 +115,10 @@ const config: Config = {
   			'accordion-up': 'accordion-up 0.2s ease-out'
   		},
   		fontFamily: {
-  			nunito: ["var(--font-nunito)"]
+			...fonts.split(" ").reduce((o,v) => {
+				o[v.replace("--font-", "")] = [`var(${v})`];
+				return o;
+			}, {})
   		}
   	}
   },

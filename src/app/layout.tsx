@@ -2,10 +2,16 @@
 import { ReactNode } from 'react';
 import { Metadata } from 'next'
 import "@/styles/aggregated.css";
-import { Nunito } from "next/font/google";
 
-const nunito = Nunito({ subsets: ["latin"], variable: "--font-nunito" });
+import ThemeProvider from '@/components/providers/themeprovider';
+import { fonts } from '@/styles/fonts';
+import { cn } from '@/lib/utils';
 
+//const vortice = Vortice({
+//  subsets: ['latin'], // Adjust based on availability
+//  weight: ['700'], // Bold for titles
+//  variable: '--font-vortice',
+//});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.procurable.group'),
@@ -89,11 +95,7 @@ export const metadata: Metadata = {
     },
   },
 
-  linkedIn: {
-    profile: {
-      company: ['https://www.linkedin.com/company/procurable-projects', 'https://www.linkedin.com/company/procurable-marine'],
-    },
-  },
+
 };
 
 
@@ -103,10 +105,11 @@ interface LayoutProps {
 
 export default function RootLayout({ children }: LayoutProps) {
   return (
-    <html lang="en" className={nunito.variable} suppressHydrationWarning>
-     
-      <body className="font-nunito">
-        {children} {/* Inject page content here */}
+    <html lang="en" className={cn(fonts,"dark")} suppressHydrationWarning>
+      <body className="font-nunito bg-background-projects text-foreground">
+        <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
+        {children}           
+        </ThemeProvider>
       </body>
     </html>
   );

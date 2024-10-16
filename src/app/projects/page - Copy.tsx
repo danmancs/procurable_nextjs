@@ -4,7 +4,7 @@
 
 
 
-import ServicesSection from '@/components/services';
+import ServicesSection from '@/app/projects';
 import Footer from '@/components/footer';
 import Head from 'next/head'; // Ensure correct import for adding meta tags
 

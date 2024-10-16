@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils';
 
 const HomePage = () => {
   return (
-    <header className={cn("bg-white py-16")}>
+    <header className={cn("py-16")}>
       <div className={cn("max-w-7xl mx-auto px-14 sm:px-6 lg:px-8 text-center")}>
         {/* Main Title */}
         <h1 className={cn("font-sans font-bold text-4xl md:text-5xl lg:text-6xl leading-snug")}>
@@ -16,7 +16,7 @@ const HomePage = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className={cn("mt-10 text-xl lg:text-2xl text-gray-700")}>
+        <p className={cn("mt-10 text-xl lg:text-2xl ")}>
           Where would you like to go?
         </p>
 

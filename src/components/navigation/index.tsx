@@ -80,7 +80,7 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={cn(`bg-white`)}>
+    <nav className={cn(``)}>
       <div className={cn(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
         <div className={cn(`flex items-center justify-between h-24`)}>
           {/* Left side: Logo and company name */}

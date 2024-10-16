@@ -7,12 +7,12 @@ const aboutLinks = [`About Us`, `Careers`, `Contact`];
 const resourceLinks = [`Guides`]; // Update or expand this as necessary
 
 const Footer = () => (
-  <footer className={cn(`bg-white border-t border-gray-400 pt-14 pb-16`)}>
+  <footer className={cn(`border-t border-gray-400 pt-14 pb-16`)}>
     <div className={cn(`max-w-7xl mx-auto text-gray-400 px-8 lg:px-5 flex flex-wrap`)}>
       {/* Logo and Company Name */}
       <div className={cn(`mb-14 flex items-center w-full lg:w-1/2`)}>
         <Image src="/images/logo.png" alt="Logo" width={48} height={48} />
-        <p className={cn(`text-4xl text-black font-bold ml-2`)}>Procurable Group</p>
+        <p className={cn(`text-4xl font-bold ml-2`)}>Procurable Group</p>
       </div>
 
       {/* Columns Container */}

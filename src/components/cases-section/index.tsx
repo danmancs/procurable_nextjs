@@ -67,7 +67,7 @@ const CasesSection = () => (
             key={article.title} // <- Use a unique value like 'title' if it's unique
             href={article.document}
             className={cn(
-              `block bg-white rounded-lg shadow-md overflow-hidden
+              `block rounded-lg shadow-md overflow-hidden
       hover:scale-105 transition transform duration-300 ease-in-out`,
             )}
           >

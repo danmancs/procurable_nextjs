@@ -3,7 +3,8 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    --gradient-projects: radial-gradient(at top left, #7f3500 0%, #000000 50%);
+    --foreground: 0 0% 0%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
@@ -40,7 +41,8 @@
 
   .dark {
     --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
+    --gradient-projects: radial-gradient(at top left, #7f3500 0%, #000000 50%);
+    --foreground: 0 0% 100%;
     --card: 0 0% 3.9%;
     --card-foreground: 0 0% 98%;
     --popover: 0 0% 3.9%;
@@ -84,7 +86,7 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background-projects text-foreground;
   }
 
   .animation-pulse {
@@ -104,22 +106,22 @@
     }
   }
   .bg-projects {
-    background: linear-gradient(to right, #d5713b 0%, #000000 60%);
+    background: radial-gradient(at top left, #7f3500 0%, #000000 50%);
   }
   .button.bg-projects {
-    background: linear-gradient(to right, #d5713b 0%, #000000 60%);
+    background: radial-gradient(at top right,  #7f3500 30%, #000000 100%);
   }
   .button.bg-projects:hover {
-    background: linear-gradient(to right, #443f3c 0%, #d5713b 100%);
+    background: radial-gradient(at bottom left,#000000 0%, #7f3500 60%);
   }
   .bg-marine {
-    background: linear-gradient(to right, #00173b 0%, #d8d9e3 100%);
+    background: radial-gradient(at top right, #d3dff5 0%, #00296b 50%);
   }
   .button.bg-marine {
-    background: linear-gradient(to right, #00173b 0%, #d8d9e3 100%);
+    background: radial-gradient(at top right,  #00296b 30%, #d3dff5 100%);
   }
   .button.bg-marine:hover {
-    background: linear-gradient(to right, #d8d9e3 0%, #00173b 100%); 
+    background: radial-gradient(at bottom left,#d3dff5 0%, #00296b 60%);
   }
 
 }

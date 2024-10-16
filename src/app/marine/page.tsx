@@ -32,22 +32,15 @@ const MarinePage = () => {
             {/* Title Section */}
             <div className="text-center">
               <h1 className="text-8xl font-bold">Procurable Marine & Infrastructure</h1>
-              <p className="mt-4 text-4x1">
+              <p className="mt-4 text-3xl">
                 Engineered products for Ports, AtoN, Offshore, and General Infrastructure
               </p>
             </div>
     
-            {/* Content Section */}
-            <div className="mt-10 space-y-6">
-              {text.trim().split('\n\n').map((paragraph, index) => (
-                <p key={index} className="text-lg">
-                  {paragraph.trim()}
-                </p>
-              ))}
-            </div>
-    
-            {/* Example of image if needed */}
-            <div className="mt-10 flex justify-center">
+             {/* Flexbox for Image and Paragraphs */}
+          <div className="mt-10 flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-10">
+            {/* Image on the Left */}
+            <div className="lg:w-1/2">
               <Image
                 src="/images/marine.jpg"
                 alt="an AtoN structure in the Spencer Gulf"
@@ -56,6 +49,17 @@ const MarinePage = () => {
                 className="rounded-lg"
               />
             </div>
+
+            {/* Paragraph Text on the Right */}
+            <div className="lg:w-1/2">
+              {text.trim().split('\n\n').map((paragraph, index) => (
+                <p key={index} className="text-lg">
+                  {paragraph.trim()}
+                </p>
+              ))}
+            </div>
+          </div>
+
     
             {/* Services Section */}
             <CasesSection />

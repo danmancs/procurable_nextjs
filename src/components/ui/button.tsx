@@ -19,9 +19,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        projects: "",
-        marine: ""
-      },
+        projects: "button bg-projects flex-grow w-[200px] min-h-[60px] text-white",  // Ensure consistent min width and height
+        marine: "button bg-marine flex-grow w-[200px] min-h-[60px] whitespace-normal text-white", // Ensure word wrap and same size
+ },
       size: {
         default: "h-9 px-4 py-2",
         sm: "h-8 rounded-md px-3 text-xs",

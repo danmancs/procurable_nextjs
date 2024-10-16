@@ -6,7 +6,7 @@ const PlayButton = () => (
     type="button"
     className={tw(
       `w-64 lg:w-auto absolute top-full left-1/2 flex items-center transform
-      -translate-y-1/2 -translate-x-1/2 bg-white rounded-full font-medium group p-4 shadow-xl`,
+      -translate-y-1/2 -translate-x-1/2 rounded-full font-medium group p-4 shadow-xl`,
     )}
     aria-label="play video"
   >
