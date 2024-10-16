@@ -89,7 +89,7 @@ const CasesSection = () => (
       <div className={cn(`flex justify-center mt-10`)}>
       <Link href="/contact">
         <span className={cn(`text-xl text-white cursor-pointer hover:underline flex items-center`)}>
-          href Contact us for anything else
+          Contact us for anything else
           <Arrow className={cn(`h-6 w-6 fill-current ml-2`)} />
         </span>
         </Link>
