@@ -20,10 +20,12 @@ const ProjectsPage = () => {
   `;
 
   return (
-    <div className={cn("bg-projects py-0 text-white")}>
+<div>
       {/* Header */}
+      <div>
       <Navigation />
-
+      </div>
+      <div className={cn("bg-projects py-0 text-white")}>
       <div className={cn("max-w-7xl pt-10 mx-auto px-4 sm:px-6 lg:px-8")}>
         {/* Title Section */}
         <div className="text-center">
@@ -59,6 +61,7 @@ const ProjectsPage = () => {
 
       {/* Footer */}
       <Footer />
+    </div>
     </div>
   );
 };
