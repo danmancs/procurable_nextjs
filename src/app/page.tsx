@@ -16,7 +16,7 @@ import Navigation from '@/components/navigation';
 
 export default function Home() {
   return (
-    <>
+    <div>
       {/*<NextSeo title="Procurable Group Pty Ltd" description="Project Management and Marine and Infrastructure Supply" />*/}
       <Navigation />
       {/* Main Header */}
@@ -34,6 +34,7 @@ export default function Home() {
 
       {/* Footer */}
       {/*<Footer />*/}
-    </>
+      <Footer />
+      </div>
   );
 }
