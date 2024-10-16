@@ -5,6 +5,7 @@
 //import { NextSeo } from 'next-seo'; // You can still use next-seo or Next.js metadata API
 import Header from '@/components/header';
 import Footer from '@/components/footer';
+import Navigation from '@/components/navigation';
 // Uncomment these if needed and make sure to add "use client" to those that need interactivity.
 // import VideoSection from '@/components/video-section';
 // import ListSection from '@/components/list-section';
@@ -17,7 +18,7 @@ export default function Home() {
   return (
     <>
       {/*<NextSeo title="Procurable Group Pty Ltd" description="Project Management and Marine and Infrastructure Supply" />*/}
-
+      <Navigation />
       {/* Main Header */}
       <Header />
 
@@ -32,7 +33,7 @@ export default function Home() {
       </main> */}
 
       {/* Footer */}
-      <Footer />
+      {/*<Footer />*/}
     </>
   );
 }

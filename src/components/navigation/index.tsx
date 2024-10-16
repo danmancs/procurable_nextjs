@@ -5,6 +5,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { cn } from '@/lib/utils';
 
 interface IMenuButton {
   toggleMenu: React.MouseEventHandler<HTMLButtonElement>;
@@ -29,12 +30,12 @@ const MenuButton = ({ toggleMenu, showMenu }: IMenuButton) => (
     aria-controls="mobile-menu"
     aria-expanded={showMenu}
     onClick={toggleMenu}
-    className={tw(`p-2 text-gray-400`)}
+    className={cn(`p-2 text-gray-400`)}
   >
-    <span className={tw(`sr-only`)}>Open menu</span>
+    <span className={cn(`sr-only`)}>Open menu</span>
     {showMenu ? (
       <svg
-        className={tw(`h-6 w-6`)}
+        className={cn(`h-6 w-6`)}
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -47,7 +48,7 @@ const MenuButton = ({ toggleMenu, showMenu }: IMenuButton) => (
       </svg>
     ) : (
       <svg
-        className={tw(`h-6 w-6`)}
+        className={cn(`h-6 w-6`)}
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -63,11 +64,11 @@ const MenuButton = ({ toggleMenu, showMenu }: IMenuButton) => (
 );
 
 const MobileMenu = () => (
-  <div className={tw(`md:hidden`)}>
-    <div className={tw(`px-2 pt-2 pb-3 space-y-1 sm:px-3`)}>
+  <div className={cn(`md:hidden`)}>
+    <div className={cn(`px-2 pt-2 pb-3 space-y-1 sm:px-3`)}>
       {links.map((link: LinkItem) => (
         <Link href={link.href} key={link.label}>
-          <span className={tw(`text-gray-500 block px-3 py-2 text-base font-medium`)}>{link.label}</span>
+          <span className={cn(`text-gray-500 block px-3 py-2 text-base font-medium`)}>{link.label}</span>
         </Link>
       ))}
     </div>
@@ -79,17 +80,17 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={tw(`bg-white`)}>
-      <div className={tw(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
-        <div className={tw(`flex items-center justify-between h-24`)}>
+    <nav className={cn(`bg-white`)}>
+      <div className={cn(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
+        <div className={cn(`flex items-center justify-between h-24`)}>
           {/* Left side: Logo and company name */}
-          <div className={tw(`flex items-center`)}>
-            <div className={tw(`flex-shrink-0`)}>
-              <div className={tw(`flex items-center`)}>
+          <div className={cn(`flex items-center`)}>
+            <div className={cn(`flex-shrink-0`)}>
+              <div className={cn(`flex items-center`)}>
                 <Link href="/" passHref>
-                  <Image src="/images/logo.png" alt="Logo" className={tw(`h-12 w-12`)} width={48} height={48} />
+                  <Image src="/images/logo.png" alt="Logo" className={cn(`h-12 w-12`)} width={48} height={48} />
                 </Link>
-                <span className={tw(`ml-2 text-xl font-bold`)} style={{ lineHeight: `48px` }}>
+                <span className={cn(`ml-2 text-xl font-bold`)} style={{ lineHeight: `48px` }}>
                   Procurable Group Pty Ltd
                 </span>
               </div>
@@ -97,11 +98,11 @@ const Navigation = () => {
           </div>
 
           {/* Right side: Contact link */}
-          <div className={tw(`hidden md:block`)}>
-            <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
+          <div className={cn(`hidden md:block`)}>
+            <div className={cn(`ml-10 flex items-baseline space-x-4`)}>
               {links.map((link: LinkItem) => (
                 <Link href={link.href} key={link.label}>
-                  <span className={tw(`text-gray-500 hover:text-gray-600 px-3 py-2 rounded-md font-medium`)}>
+                  <span className={cn(`text-gray-500 hover:text-gray-600 px-3 py-2 rounded-md font-medium`)}>
                     {link.label}
                   </span>
                 </Link>
@@ -110,7 +111,7 @@ const Navigation = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className={tw(`-mr-2 flex md:hidden`)}>
+          <div className={cn(`-mr-2 flex md:hidden`)}>
             <MenuButton showMenu={showMenu} toggleMenu={toggleMenu} />
           </div>
         </div>
