@@ -105,7 +105,7 @@ interface LayoutProps {
 export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en" className={cn(fonts,"dark")} suppressHydrationWarning>
-      <body className="font-nunito bg-background-projects text-foreground">
+      <body className="font-nunito-sans bg-background-projects text-foreground">
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
         {children}           
         </ThemeProvider>

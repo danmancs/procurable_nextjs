@@ -14,12 +14,12 @@ export default function HomePage() {
       <header className={cn("py-16")}>
         <div className={cn("max-w-7xl mx-auto px-14 sm:px-6 lg:px-8 text-center")}>
           {/* Main Title */}
-          <h1 className={cn("font-sans font-bold text-4xl md:text-5xl lg:text-6xl leading-snug")}>
+          <h1 className={cn("font-nunitosans font-bold text-4xl md:text-5xl lg:text-6xl leading-snug")}>
             Welcome to Procurable Group
           </h1>
 
           {/* Subtitle */}
-          <p className={cn("mt-10 text-xl lg:text-2xl")}>
+          <p className={cn("font-nunitosans mt-10 text-xl lg:text-2xl")}>
             Where would you like to go?
           </p>
 

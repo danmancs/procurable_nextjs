@@ -115,10 +115,10 @@ const config = {
   			'accordion-up': 'accordion-up 0.2s ease-out'
   		},
   		fontFamily: {
-			...fonts.split(" ").reduce((o,v) => {
-				o[v.replace("--font-", "")] = [`var(${v})`];
-				return o;
-			}, {})
+			"nunito-sans": "var(--font-nunitosans)",
+			nunito: "var(--font-nunito)",
+			inter: "var(--font-inter)"
+
   		}
   	}
   },
