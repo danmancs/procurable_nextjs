@@ -18,7 +18,7 @@ const Footer = () => (
       </div>
 
       {/* List Container (Resources and Company) */}
-      <div className={cn(`mt-4 flex flex-col lg:flex-row w-full lg:w-1/3 justify-start space-x-0 lg:space-x-4 space-y-1 lg:space-y-0`)}>
+      <div className={cn(`mt-4 flex flex-col lg:flex-row w-full lg:w-1/3 justify-start space-x-0 lg:space-x-4 space-y-1 lg:space-y-0 pb-10`)}>
 
         {/* Resources Section */}
         <div className={cn(`w-full lg:w-1/3`)}>
