@@ -115,7 +115,7 @@ const config = {
   			'accordion-up': 'accordion-up 0.2s ease-out'
   		},
   		fontFamily: {
-			"nunito-sans": "var(--font-nunitosans)",
+			nunitoSans: "var(--font-nunitosans)",
 			nunito: "var(--font-nunito)",
 			inter: "var(--font-inter)"
 
