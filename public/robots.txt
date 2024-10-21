@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://procurable.group
+
+# Sitemaps
+Sitemap: https://procurable.group/sitemap.xml
