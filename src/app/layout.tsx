@@ -12,7 +12,6 @@ import { cn } from '@/lib/utils';
 //  weight: ['700'], // Bold for titles
 //  variable: '--font-vortice',
 //});
-export const runtime = 'edge' // 'nodejs' (default) | 'edge'
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.procurable.group'),
   title: {

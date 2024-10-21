@@ -71,4 +71,3 @@ const ProjectsPage = () => {
 };
 
 export default ProjectsPage;
-export const runtime = 'edge' // 'nodejs' (default) | 'edge'

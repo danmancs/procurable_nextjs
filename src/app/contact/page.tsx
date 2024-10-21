@@ -113,4 +113,3 @@ const Contact = () => {
 };
 
 export default Contact;
-export const runtime = 'edge' // 'nodejs' (default) | 'edge'
