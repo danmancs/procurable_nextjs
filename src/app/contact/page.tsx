@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Navigation from '@/components/navigation';
 import { cn } from '@/lib/utils';
+import Footer from '@/components/footer/index';
 
 const Contact = () => {
   const initialState = { username: ``, email: ``, message: `` }; // Updated initialState
@@ -56,7 +57,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className={cn(`bg-gray-100 p-8 rounded-lg shadow-lg max-w-xl mx-auto`)}>
+        <form onSubmit={handleSubmit} className={cn(`bg-gray-700 p-8 rounded-lg shadow-lg max-w-xl mx-auto`)}>
           <div className={cn(`mb-4`)}>
             <input
               type="text"
@@ -104,7 +105,9 @@ const Contact = () => {
             <Image src="/images/logo.png" alt="Logo" width={120} height={120} className={cn(`mx-auto`)} />
           </Link>
         </div>
+        
       </div>
+      <Footer />
     </div>
   );
 };

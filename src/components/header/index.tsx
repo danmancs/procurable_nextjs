@@ -16,7 +16,7 @@ const HomePage = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className={cn("mt-10 text-xl lg:text-2xl ")}>
+        <p className={cn("mt-10 text-xl lg:text-2xl")}>
           Where would you like to go?
         </p>
 

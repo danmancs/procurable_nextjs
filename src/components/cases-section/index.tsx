@@ -68,7 +68,7 @@ const CasesSection = () => (
             href={article.document}
             className={cn(
               `block rounded-lg shadow-md overflow-hidden
-      hover:scale-105 transition transform duration-300 ease-in-out`,
+      hover:scale-105 transition transform duration-300 ease-in-out bg-black bg-opacity-30`,
             )}
           >
             {/* Replaced img with Next.js Image for optimization */}
@@ -81,7 +81,7 @@ const CasesSection = () => (
               />
             </div>
             <div className={cn(`p-4`)}>
-              <p className={cn(`text-xl font-semibold text-gray-800`)}>{article.title}</p>
+              <p className={cn(`text-xl font-semibold text-white`)}>{article.title}</p>
             </div>
           </a>
         ))}

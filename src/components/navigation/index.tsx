@@ -30,7 +30,7 @@ const MenuButton = ({ toggleMenu, showMenu }: IMenuButton) => (
     aria-controls="mobile-menu"
     aria-expanded={showMenu}
     onClick={toggleMenu}
-    className={cn(`p-2 text-gray-400`)}
+    className={cn(`p-2`)}
   >
     <span className={cn(`sr-only`)}>Open menu</span>
     {showMenu ? (
@@ -68,7 +68,7 @@ const MobileMenu = () => (
     <div className={cn(`px-2 pt-2 pb-3 space-y-1 sm:px-3`)}>
       {links.map((link: LinkItem) => (
         <Link href={link.href} key={link.label}>
-          <span className={cn(`text-gray-500 block px-3 py-2 text-base font-medium`)}>{link.label}</span>
+          <span className={cn(`block px-3 py-2 text-base font-medium`)}>{link.label}</span>
         </Link>
       ))}
     </div>
@@ -80,9 +80,9 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={cn(``)}>
+    <nav className={cn(`bg-black bg-opacity-20`)}>
       <div className={cn(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
-        <div className={cn(`flex items-center justify-between h-24`)}>
+        <div className={cn(`flex items-center justify-between h-16`)}>
           {/* Left side: Logo and company name */}
           <div className={cn(`flex items-center`)}>
             <div className={cn(`flex-shrink-0`)}>
@@ -102,7 +102,7 @@ const Navigation = () => {
             <div className={cn(`ml-10 flex items-baseline space-x-4`)}>
               {links.map((link: LinkItem) => (
                 <Link href={link.href} key={link.label}>
-                  <span className={cn(`text-gray-500 hover:text-gray-600 px-3 py-2 rounded-md font-medium`)}>
+                  <span className={cn(`hover:text-gray-600 px-3 py-2 rounded-md font-medium`)}>
                     {link.label}
                   </span>
                 </Link>

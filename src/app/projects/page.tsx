@@ -1,10 +1,11 @@
 'use client';
 
 import Navigation from '@/components/navigation';
-import ServicesSection from '@/app/projects';
-import Footer from '@/components/footer';
+import ServicesSection from '@/components/services';
+import Footer from '@/components/footer/index';
 import Image from 'next/image'; // For any relevant images in the projects section
 import { cn } from '@/lib/utils';
+
 
 const ProjectsPage = () => {
   const text = `
@@ -22,21 +23,21 @@ const ProjectsPage = () => {
   return (
 <div>
       {/* Header */}
-      <div>
-      <Navigation />
-      </div>
+      
       <div className={cn("bg-projects py-0 text-white")}>
-      <div className={cn("max-w-7xl pt-10 mx-auto px-4 sm:px-6 lg:px-8")}>
+      <Navigation />
+      <div className={cn("max-w-7xl pt-0 mx-auto px-4 sm:px-6 lg:px-8")}>
+
         {/* Title Section */}
         <div className="text-center">
-          <h1 className="text-8xl font-bold">Procurable Projects</h1>
+          <h1 className="text-6xl mt-10 font-bold">Procurable Projects</h1>
           <p className="mt-4 text-3xl">
             Project and Contract Management services
           </p>
         </div>
 
 {/* Flexbox for Text and Image */}
-<div className="mt-10 flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-10">
+<div className="mt-10 flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-10 max-w-4xl mx-auto">
             {/* Text on the Left */}
             <div className="lg:w-1/2">
               {text.trim().split('\n\n').map((paragraph, index) => (

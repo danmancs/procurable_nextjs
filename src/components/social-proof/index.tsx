@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Quote from '@/constants/svg/quote.svg';
-
+import { cn } from '@/lib/utils';
 const socialProofs = [
   {
     name: `John Doe`,
@@ -38,33 +38,33 @@ const SocialProof = () => {
   };
 
   return (
-    <div className={tw(`container mx-auto my-8`)}>
-      <div className={tw(`max-w-7xl mx-auto`)}>
+    <div className={cn(`container mx-auto my-8`)}>
+      <div className={cn(`max-w-7xl mx-auto`)}>
         <section>
           <figure>
-            <div className={tw(`relative`)}>
-              <Quote className={tw(`w-16 md:w-12 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-300`)} />
-              <div className={tw(`pt-20 px-6 md:px-0`)}>
-                <p className={tw(`text-gray-600 text-base pb-6`)}>{socialProofs[currentIndex].text}</p>
-                <div className={tw(`flex items-center justify-between`)}>
-                  <div className={tw(`flex items-center pb-12`)}>
-                    <div className={tw(`h-12 w-12`)}>
+            <div className={cn(`relative`)}>
+              <Quote className={cn(`w-16 md:w-12 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-300`)} />
+              <div className={cn(`pt-20 px-6 md:px-0`)}>
+                <p className={cn(`text-gray-600 text-base pb-6`)}>{socialProofs[currentIndex].text}</p>
+                <div className={cn(`flex items-center justify-between`)}>
+                  <div className={cn(`flex items-center pb-12`)}>
+                    <div className={cn(`h-12 w-12`)}>
                       <img
                         src={socialProofs[currentIndex].image}
                         alt={socialProofs[currentIndex].name}
-                        className={tw(`h-full w-full object-cover overflow-hidden rounded-full`)}
+                        className={cn(`h-full w-full object-cover overflow-hidden rounded-full`)}
                         height={48}
                         width={48}
                       />
                     </div>
-                    <p className={tw(`text-gray-600 font-bold ml-3`)}>
+                    <p className={cn(`text-gray-600 font-bold ml-3`)}>
                       {socialProofs[currentIndex].name} <br />
-                      <span className={tw(`text-gray-600 text-base font-light`)}>
+                      <span className={cn(`text-gray-600 text-base font-light`)}>
                         {socialProofs[currentIndex].company}
                       </span>
                     </p>
                   </div>
-                  <div className={tw(`cursor-pointer flex pb-12`)}>
+                  <div className={cn(`cursor-pointer flex pb-12`)}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={44}

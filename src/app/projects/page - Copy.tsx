@@ -4,8 +4,8 @@
 
 
 
-import ServicesSection from '@/app/projects';
-import Footer from '@/components/footer';
+import ServicesSection from '@/components/services';
+import Footer from '@/components/footer/indexNF';
 import Head from 'next/head'; // Ensure correct import for adding meta tags
 
 

@@ -4,7 +4,7 @@
 import Navigation from '@/components/navigation';
 import Head from 'next/head'; // Ensure correct import for adding meta tags
 import CasesSection from '@/components/cases-section'; // Include any client components that need hydration
-import Footer from '@/components/footer';
+import Footer from '@/components/footer/index';
 import Image from 'next/image'; // For any relevant images in the projects section
 import { cn } from '@/lib/utils';
 
@@ -24,51 +24,51 @@ const MarinePage = () => {
   return (
     <div>
           {/* Header */}
-          <div>
-          <Navigation />
-          </div>
+
           <div className={cn("bg-marine py-0 text-white")}>
-          <div className={cn("max-w-7xl pt-10 mx-auto px-4 sm:px-6 lg:px-8")}>
-            {/* Title Section */}
-            <div className="text-center">
-              <h1 className="text-8xl font-bold">Procurable Marine & Infrastructure</h1>
-              <p className="mt-4 text-3xl">
-                Engineered products for Ports, AtoN, Offshore, and General Infrastructure
-              </p>
-            </div>
-    
-             {/* Flexbox for Image and Paragraphs */}
-          <div className="mt-10 flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-10">
-            {/* Image on the Left */}
-            <div className="lg:w-1/2">
-              <Image
-                src="/images/marine.jpg"
-                alt="an AtoN structure in the Spencer Gulf"
-                width={600}
-                height={400}
-                className="rounded-lg"
-              />
-            </div>
+          <Navigation />
+          <div className={cn("max-w-7xl pt-0 mx-auto px-4 sm:px-6 lg:px-8")}>
+    {/* Title Section */}
+    <div className="text-center">
+      <h1 className="text-6xl mt-10 font-bold">Procurable Marine & Infrastructure</h1>
+      <p className="mt-4 text-3xl">
+        Engineered products for Ports, AtoN, Offshore, and General Infrastructure
+      </p>
+    </div>
 
-            {/* Paragraph Text on the Right */}
-            <div className="lg:w-1/2">
-              {text.trim().split('\n\n').map((paragraph, index) => (
-                <p key={index} className="text-lg">
-                  {paragraph.trim()}
-                </p>
-              ))}
-            </div>
+    {/* Flexbox for Image and Paragraphs */}
+    <div className="mt-10 flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-10 max-w-4xl mx-auto">
+      {/* Image on the Left */}
+      <div className="lg:w-1/2 flex justify-center lg:justify-end">
+        <Image
+          src="/images/marine.jpg"
+          alt="an AtoN structure in the Spencer Gulf"
+          width={400}
+          height={600}
+          className="rounded-lg"
+        />
+      </div>
+
+          {/* Paragraph Text on the Right */}
+<div className="lg:w-1/2 text-lg">
+  {text.trim().split('\n\n').map((paragraph, index) => (
+    <p key={index} className="text-lg leading-relaxed">
+      {paragraph.trim()}
+    </p>
+  ))}
+</div>
           </div>
-
+          </div>
     
             {/* Services Section */}
             <CasesSection />
-          </div>
+          
     
           {/* Footer */}
           <Footer />
+          </div>
         </div>
-        </div>
+       
       );
     };
     
