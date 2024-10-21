@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import Navigation from '@/components/navigation'; 
 import Footer from '@/components/footer/index';
-
+export const runtime = 'edge' // 'nodejs' (default) | 'edge'
 export default function HomePage() {
   return (
     <div>

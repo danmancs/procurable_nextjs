@@ -73,4 +73,4 @@ const MarinePage = () => {
     };
     
     export default MarinePage;
- 
+    export const runtime = 'edge' // 'nodejs' (default) | 'edge'
