@@ -4,8 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
-const aboutLinks = [`About Us`, `Careers`, `Contact`];
-const resourceLinks = [`Guides`];
+const aboutLinks = [{ label: 'About Us', href: '/about-us' }, { label: 'Careers', href: 'https://www.linkedin.com/company/procurable-projects/jobs' }, { label: 'Contact', href: '/contact' }];
+const resourceLinks = [{ label: 'Guides', href: '/guides' }, { label: 'Privacy', href: '/privacy' }, { label: 'QMS', href: '/qms' }, { label: 'WHSMS', href: '/whsms' }, { label: 'ESMS', href: '/esms'}];
 
 const Footer = () => (
   <footer className={cn(`border-t border-gray-400 pt-2 pb-2`)}>
@@ -25,8 +25,8 @@ const Footer = () => (
           <ul className={cn(`list-none space-y-1`)}>
             <li className={cn(`text-base font-bold mb-1`)}>Resources</li>
             {resourceLinks.map((link) => (
-              <li key={link} className={cn(`text-sm font-medium leading-4`)}>
-                <Link href={`/${link.toLowerCase()}`}>{link}</Link>
+              <li key={link.label} className={cn(`text-sm font-medium leading-4`)}>
+                <Link href={link.href}>{link.label}</Link>
               </li>
             ))}
           </ul>
@@ -37,8 +37,12 @@ const Footer = () => (
           <ul className={cn(`list-none space-y-1`)}>
             <li className={cn(`text-base font-bold mb-1`)}>Company</li>
             {aboutLinks.map((link) => (
-              <li key={link} className={cn(`text-sm font-medium leading-4`)}>
-                <Link href={`/${link.toLowerCase()}`}>{link}</Link>
+              <li key={link.label} className={cn(`text-sm font-medium leading-4`)}>
+                {link.href.startsWith('http') ? (
+                  <a href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>
+                ) : (
+                  <Link href={link.href}>{link.label}</Link>
+                )}
               </li>
             ))}
           </ul>

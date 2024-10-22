@@ -9,15 +9,11 @@ import { cn } from '@/lib/utils';
 
 const ProjectsPage = () => {
   const text = `
-    Welcome to Procurable Projects, your dedicated partner for comprehensive project management services.
-    We bring deep industry expertise and a commitment to delivering projects with precision — on time and within budget.
+   Welcome to Procurable Projects — your trusted partner in delivering end-to-end project management solutions. We focus on delivering measurable results, ensuring your projects are completed on time and within budget.
 
-    Procurable Projects offers a full suite of project management services with engagement options that cater to a wide range of needs.
-    From short-term consultancy to full-scale project oversight, our flexible approach allows us to support your project at any level.
-    We excel at defining clear scopes, managing complex projects, and engaging stakeholders to ensure successful outcomes.
+At Procurable Projects, we provide a comprehensive range of project management services tailored to your specific needs. Whether you require short-term consultation or full project oversight, our adaptable approach allows us to step in at any stage and add value where it's needed most. Our team excels in defining clear project scopes, managing complexities, and keeping stakeholders aligned to achieve successful outcomes.
 
-    Backed by over 25 years of global industry experience, our project management services are underpinned by technical competency,
-    industry knowledge, and a focus on achieving the highest standards in every project we manage.
+With over 25 years of global experience, our services are built on a foundation of technical expertise and a deep understanding of industry standards. We are committed to delivering the highest quality in every project we manage.
   `;
 
   return (

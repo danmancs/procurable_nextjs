@@ -10,16 +10,11 @@ import { cn } from '@/lib/utils';
 
 const MarinePage = () => {
   const text = `
-    At Procurable Marine & Infrastructure, we supply high-quality equipment for the maritime, offshore,
-        and infrastructure sectors. We partner with top global manufacturers to ensure our products
-        meet the highest standards.
+    At Procurable Marine & Infrastructure, we supply a broad range of engineered products for the maritime, offshore, and infrastructure sectors. Our offering includes port and AtoN equipment, AIS systems, chain systems, and marina equipment. We also have the capability to direct source other engineered products through our extensive global manufacturing network.
 
-        Our product range includes port and offshore equipment, as well as marina essentials.
-        We focus on delivering reliable and efficient solutions tailored to each project's needs.
+We handle the entire process, ensuring products are delivered efficiently and meet the highest quality standards, aligned with both industry requirements and your specific needs.
 
-        Beyond just supplying products, we bring expertise in quality assurance and project management,
-        ensuring comprehensive support for our clients. We provide dependable and robust solutions
-        for marine and infrastructure projects.
+If you’re looking for reliable, high-quality products for your operations, get in touch. We’re here to supply the right solutions for your business.
   `;
   return (
     <div>

@@ -28,7 +28,7 @@ const ServicesSection = () => (
           <div className={cn(`w-full border-b border-white md:w-1/2 lg:w-1/3 lg:border-r p-8`)}>
             <div className={cn(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="currentColor" className={cn(`h-6 w-6 text-yellow-600`)} />
-              <div className={cn(`ml-4 text-xl text-yellow-600`)}>Dispute Resolution and negotiation</div>
+              <div className={cn(`ml-4 text-xl text-yellow-600`)}>Dispute Resolution and Negotiation</div>
             </div>
             <p className={cn(`leading-loose`)}>
               Projects sometimes go sideways. We help get your project back on track by working with all parties to
