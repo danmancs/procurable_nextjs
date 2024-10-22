@@ -94,7 +94,7 @@ const Contact = () => {
               required
             />
           </div>
-          <button type="submit" className={cn(`bg-blue-500 text-white py-3 px-6 rounded-lg hover:bg-blue-600`)}>
+          <button type="submit" className={cn(`bg-gray-500 text-white py-3 px-6 rounded-lg hover:bg-gray-600`)}>
             Send Message
           </button>
         </form>
