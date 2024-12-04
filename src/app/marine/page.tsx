@@ -5,16 +5,18 @@ import Navigation from '@/components/navigation';
 import Head from 'next/head'; // Ensure correct import for adding meta tags
 import CasesSection from '@/components/cases-section'; // Include any client components that need hydration
 import Footer from '@/components/footer/index';
-import Image from 'next/image'; // For any relevant images in the projects section
+import Image from "next/legacy/image"; // For any relevant images in the projects section
 import { cn } from '@/lib/utils';
 
 const MarinePage = () => {
   const text = `
-    At Procurable Marine & Infrastructure, we supply a broad range of engineered products for the maritime, offshore, and infrastructure sectors. Our offering includes port and AtoN equipment, AIS systems, chain systems, and marina equipment. We also have the capability to direct source other engineered products through our extensive global manufacturing network.
+    At Procurable Marine & Infrastructure, we specialise in the supply of AtoN (Aids to Navigation) buoys, buoy mooring systems, anchor and mooring chains, and electronic AtoN systems, including AIS solutions. We also supply Fish Aggregating Devices (FADs), providing reliable and innovative products tailored to your operational requirements.
 
-We handle the entire process, ensuring products are delivered efficiently and meet the highest quality standards, aligned with both industry requirements and your specific needs.
+In addition to AtoN systems, we act as the agent and distributor for IRM Offshore and Marine Engineers, offering high-quality port equipment, including fenders, bollards, and related accessories. We also supply marina infrastructure products and other engineered components.
 
-If you’re looking for reliable, high-quality products for your operations, get in touch. We’re here to supply the right solutions for your business.
+Our products meet IALA guidelines and Class approval requirements, where appropriate. With a long-established supplier network, we ensure that our products consistently meet the highest quality standards.
+
+For dependable solutions designed to support your operations, contact us today.
   `;
   return (
     <div>
@@ -38,8 +40,8 @@ If you’re looking for reliable, high-quality products for your operations, get
         <Image
           src="/images/marine.jpg"
           alt="an AtoN structure in the Spencer Gulf"
-          width={400}
-          height={600}
+          width={600}
+          height={900}
           className="rounded-lg"
         />
       </div>
@@ -54,17 +56,17 @@ If you’re looking for reliable, high-quality products for your operations, get
 </div>
           </div>
           </div>
-    
+
             {/* Services Section */}
             <CasesSection />
-          
-    
+
+
           {/* Footer */}
           <Footer />
           </div>
         </div>
-       
+
       );
     };
-    
+
     export default MarinePage;

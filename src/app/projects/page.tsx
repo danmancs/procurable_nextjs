@@ -3,7 +3,7 @@
 import Navigation from '@/components/navigation';
 import ServicesSection from '@/components/services';
 import Footer from '@/components/footer/index';
-import Image from 'next/image'; // For any relevant images in the projects section
+import Image from "next/legacy/image"; // For any relevant images in the projects section
 import { cn } from '@/lib/utils';
 
 
@@ -19,7 +19,7 @@ With over 25 years of global experience, our services are built on a foundation 
   return (
 <div>
       {/* Header */}
-      
+
       <div className={cn("bg-projects py-0 text-white")}>
       <Navigation />
       <div className={cn("max-w-7xl pt-0 mx-auto px-4 sm:px-6 lg:px-8")}>
@@ -49,7 +49,7 @@ With over 25 years of global experience, our services are built on a foundation 
                 src="/images/aton.jpg"
                 alt="Project Management"
                 width={600}
-                height={400}
+                height={810}
                 className="rounded-lg"
               />
             </div>

@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { cn } from '@/lib/utils';
 import Navigation from '@/components/navigation'; 
 import Footer from '@/components/footer/index';

@@ -18,23 +18,53 @@ export const metadata: Metadata = {
     default: 'Procurable Group',
     template: '%s | Procurable Group',
   },
-  description: 'Procurable Group delivers expert project management services and supplies high-quality engineered products for the marine and infrastructure industries. With two dedicated divisions, we provide tailored solutions to meet industry needs, ensuring quality, efficiency, and over 25 years of trusted experience.',
-  
+  description: 'Procurable Group provides expert project management and supplies high-quality engineered products for marine and infrastructure sectors. With two specialized divisions, we deliver tailored solutions, ensuring quality, efficiency, and leveraging over 25 years of industry expertise to meet complex needs effectively.',
+
   generator: 'Next.js',
   applicationName: 'Procurable Group',
   referrer: 'origin-when-cross-origin',
-  
+
   keywords: [
-    'project management', 
-    'engineered products', 
-    'marine industry', 
-    'infrastructure industry', 
-    'marine solutions', 
-    'contract management', 
+    'project management',
+    'engineered products',
+    'marine industry',
+    'infrastructure industry',
+    'marine solutions',
+    'contract management',
     'supplier quality management',
-    'strategic sourcing', 
-    'expediting', 
-    'asset management'
+    'strategic sourcing',
+    'expediting',
+    'asset management',
+    'buoys',
+    'AtoN',
+    'fenders',
+    'FADs',
+    'Aids to Navigation',
+    'chains',
+    'moorings',
+    'marine equipment',
+    'navigation buoys',
+    'maritime infrastructure',
+    'AIS systems',
+    'offshore equipment',
+    'port solutions',
+    'marine safety',
+    'navigational aids',
+    'supply chain solutions',
+    'mooring systems',
+    'quality assurance',
+    'tendering process',
+    'marina infrastructure',
+    'marine supply chain',
+    'anchor chains',
+    'offshore wind',
+    'navigational systems',
+    'procurement services',
+    'marine product supply',
+    'marine logistics',
+    'offshore maintenance',
+    'navigational markers'
+
   ],
 
   authors: [
@@ -66,7 +96,7 @@ export const metadata: Metadata = {
       { url: '/images/logo.png', width: 512, height: 512, alt: 'Procurable Group Logo' },
     ],
     locale: 'en_US',
-    type: 'website',  
+    type: 'website',
     },
 
   icons: {
@@ -107,7 +137,7 @@ export default function RootLayout({ children }: LayoutProps) {
     <html lang="en" className={cn(fonts,"dark")} suppressHydrationWarning>
       <body className="font-nunito-sans bg-background-projects text-foreground">
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
-        {children}           
+        {children}
         </ThemeProvider>
       </body>
     </html>

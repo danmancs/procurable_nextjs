@@ -1,9 +1,24 @@
-import Image from 'next/image'; // Importing Next.js optimized image component
+import Image from "next/legacy/image"; // Importing Next.js optimized image component
 import Link from 'next/link';
 import Arrow from '@/constants/svg/arrow.svg'; // Adjust path if necessary
 import { cn } from '@/lib/utils';
 
 const articles = [
+  {
+    title: `Buoys`,
+    document: `portfolio/Buoys.pdf`,
+    smallImage: `/portfolio/buoys.png`,
+  },
+  {
+    title: `Chains`,
+    document: `portfolio/Procurable_Chain_Catalogue.pdf`,
+    smallImage: `/portfolio/chains.png`,
+  },
+  {
+    title: `AIS AtoN`,
+    document: `portfolio/SRT_Digital_AtoN_Presentation.pdf`,
+    smallImage: `/portfolio/AIS.png`,
+  },
   {
     title: `Port Fenders`,
     document: `portfolio/Marine-Fenders.pdf`,
@@ -34,21 +49,7 @@ const articles = [
     document: `portfolio/Offshore-Products.pdf`,
     smallImage: `/portfolio/offshore.png`,
   },
-  {
-    title: `Buoys`,
-    document: `portfolio/Buoys.pdf`,
-    smallImage: `/portfolio/buoys.png`,
-  },
-  {
-    title: `Chains`,
-    document: `portfolio/Procurable_Chain_Catalogue.pdf`,
-    smallImage: `/portfolio/chains.png`,
-  },
-  {
-    title: `AIS AtoN`,
-    document: `portfolio/SRT_Digital_AtoN_Presentation.pdf`,
-    smallImage: `/portfolio/AIS.png`,
-  },
+
 ];
 
 const CasesSection = () => (

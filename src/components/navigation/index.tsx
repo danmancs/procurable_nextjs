@@ -3,7 +3,7 @@
 // Mark this as a client-side component
 
 import { useState } from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 

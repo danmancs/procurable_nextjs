@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import Navigation from '@/components/navigation';
 import { cn } from '@/lib/utils';
