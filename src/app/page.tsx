@@ -1,50 +1,64 @@
 'use client';
 
-import Image from "next/legacy/image";
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import Navigation from '@/components/navigation';
+import Footer from '@/components/footer';
 import { cn } from '@/lib/utils';
-import Navigation from '@/components/navigation'; 
-import Footer from '@/components/footer/index';
+import Image from 'next/image';
 
 export default function HomePage() {
   return (
-    <div>
-      <Navigation/>
-      <header className={cn("py-16")}>
-        <div className={cn("max-w-7xl mx-auto px-14 sm:px-6 lg:px-8 text-center")}>
-          {/* Main Title */}
-          <h1 className={cn("font-nunitosans font-bold text-4xl md:text-5xl lg:text-6xl leading-snug")}>
+    <div className="flex flex-col min-h-screen text-white bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-gray-800 via-black to-black">
+      <Navigation />
+      <main className={cn("flex-1 py-16")}>
+        <div className={cn("mx-auto max-w-4xl px-6 sm:px-8")}>
+          <h1 className="text-4xl md:text-5xl font-bold mb-8 flex justify-center">
             Welcome to Procurable Group
           </h1>
 
-          {/* Subtitle */}
-          <p className={cn("font-nunitosans mt-10 text-xl lg:text-2xl")}>
-            Where would you like to go?
+          {/* Image placeholder */}
+          <div className="mb-8 flex justify-center">
+            <Image
+              src="/images/logo.png" // replace with real image later
+              alt="Procurable Group"
+              width={300}
+              height={300}
+              className="rounded-lg object-cover"
+            />
+          </div>
+
+          <p className="text-lg leading-relaxed mb-6">
+            <strong>Procurable Group</strong> delivers practical outcomes across projects and engineered supply.
           </p>
 
-          {/* Action Buttons */}
-          <div className={cn("mt-10 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4")}>
-            <Link href="/projects">
-              <Button variant="projects">Procurable Projects</Button>
-            </Link>
-            <Link href="/marine">
-              <Button variant="marine">Procurable Marine & Infrastructure</Button>
-            </Link>
-          </div>
+          <p className="text-lg mb-3">We specialise in:</p>
+          <ul className="list-disc list-inside text-lg space-y-1 mb-6">
+            <li>
+              <strong>Project management consultancy</strong> across ports and marine, aviation,
+              construction, and infrastructure.
+            </li>
+            <li>
+              <strong>Engineering capability</strong> spanning civil, structural, mechanical, electrical,
+              and marine works — ensuring technical input that supports delivery, not just design.
+            </li>
+            <li>
+              <strong>Engineered supply</strong> of marine and infrastructure equipment, through direct
+              links with trusted global manufacturers.
+            </li>
+            <li>
+              <strong>Specialist inspections and surveys</strong>, including damaged cargo surveys for
+              insurers and logistics operators.
+            </li>
+          </ul>
 
-          {/* Optional Logo Section */}
-          <div className={cn("flex justify-center mt-16")}>
-            <Image src="/images/logo.png" alt="Logo" width={200} height={200} className="rounded-lg" />
-          </div>
-
-          {/* Footer */}
-          <footer className={cn(`font-mono pb-40 pt-10 uppercase text-center font-medium text-sm text-gray-600`)}>
-            <p>Thanks for stopping by</p>
-          </footer>
+          <p className="text-lg leading-relaxed">
+            What sets us apart is how we join these capabilities together. We’re engineers as well as
+            project managers, so we understand scope, risk, and interfaces from the ground up. That
+            means designs, inspections, and supplies are coordinated within a broader plan, ensuring
+            clarity, accountability, and results.
+          </p>
         </div>
-      </header>
-      <Footer/>
+      </main>
+      <Footer />
     </div>
   );
 }
