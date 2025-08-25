@@ -9,12 +9,14 @@ import { cn } from '@/lib/utils';
 
 const ProjectsPage = () => {
   const text = `
-   Welcome to Procurable Projects — your trusted partner in delivering end-to-end project management solutions. We focus on delivering measurable results, ensuring your projects are completed on time and within budget.
+Procurable Projects delivers project and contract management with a clear focus on outcomes. We manage complexity without losing sight of time, cost, and quality — ensuring projects are delivered with certainty.
 
-At Procurable Projects, we provide a comprehensive range of project management services tailored to your specific needs. Whether you require short-term consultation or full project oversight, our adaptable approach allows us to step in at any stage and add value where it's needed most. Our team excels in defining clear project scopes, managing complexities, and keeping stakeholders aligned to achieve successful outcomes.
+Our experience includes engagements with Queensland Government, large multinationals, aviation and airport operators, and major capital works programs. This breadth of work gives us a strong understanding of governance requirements, the ability to coordinate diverse stakeholders, and the capability to keep delivery moving in complex environments.
 
-With over 25 years of global experience, our services are built on a foundation of technical expertise and a deep understanding of industry standards. We are committed to delivering the highest quality in every project we manage.
-  `;
+We provide scalable support, from targeted advice through to full lifecycle management. Whether defining scope, managing procurement, or steering delivery, our approach is practical, transparent, and underpinned by technical expertise.
+
+With more than 25 years of global experience, we bring the discipline of engineering, the rigour of strong governance, and the flexibility of a consultancy that adapts to your needs. Every engagement is driven by the same principle — to deliver lasting value for our clients.
+`;
 
   return (
 <div>
